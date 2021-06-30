@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="55.120272">
+<testcase classname="To validate Login functionality." name="To validate Login using Valid Credentials" time="14.557503">
+<system-out><![CDATA[Given User is in Adactin login page.........................................passed
+When User enter valid Username and Password.................................passed
+And User enter Login button.................................................passed
+Then User must displayed with Successful Login..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Validate Hotel functionality" name="To validate Hotel Booking functionality using valid credentials" time="40.562769">
+<system-out><![CDATA[Given User is in Adactin login page.........................................passed
+And User enter "pavithra97" and "pavithra97" and click Login................passed
+When User is in Search page, user enter details for Search hotel............passed
+And User click Search button................................................passed
+Then user book the hotel by filling details "pavithra","chandar"and"chennai".passed
+And user pay the amount using "1234567887654321" and "123"..................passed
+And User click bookNow button and id number is generated....................passed
+]]></system-out>
+</testcase>
+</testsuite>
